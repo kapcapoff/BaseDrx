@@ -1,0 +1,629 @@
+﻿<doc>
+  <assembly>
+    <name>CommonLibrary</name>
+  </assembly>
+  <members>
+    <member name="F:CommonLibrary.DateTimeFormat.Date">
+      <summary>Только дата (без времени).</summary>
+    </member>
+    <member name="F:CommonLibrary.DateTimeFormat.DateTime">
+      <summary>Дата и время с точностью до секунды.</summary>
+    </member>
+    <member name="F:CommonLibrary.DateTimeFormat.DateTimeWithMilliseconds">
+      <summary>Дата и время с точностью до миллисекунды.</summary>
+    </member>
+    <member name="F:CommonLibrary.DateTimeFormat.MonthYear">
+      <summary>Месяц-год.</summary>
+    </member>
+    <member name="F:CommonLibrary.DateTimeFormat.Time">
+      <summary>Только время (без даты).</summary>
+    </member>
+    <member name="F:CommonLibrary.DateTimeFormat.Year">
+      <summary>Год.</summary>
+    </member>
+    <member name="F:CommonLibrary.PersonFullNameDisplayFormat.Full">
+      <summary>Фамилия, имя и отчество.</summary>
+    </member>
+    <member name="F:CommonLibrary.PersonFullNameDisplayFormat.InitialsAndLastName">
+      <summary>И.О. Фамилия.</summary>
+    </member>
+    <member name="F:CommonLibrary.PersonFullNameDisplayFormat.LastNameAndInitials">
+      <summary>Фамилия И.О.</summary>
+    </member>
+    <member name="F:CommonLibrary.PersonFullNameDisplayFormat.Undefined">
+      <summary>Неопределённый формат.</summary>
+    </member>
+    <member name="F:CommonLibrary.ValidationMessageType.Error">
+      <summary>Ошибка.</summary>
+    </member>
+    <member name="F:CommonLibrary.ValidationMessageType.Information">
+      <summary>Информация.</summary>
+    </member>
+    <member name="F:CommonLibrary.ValidationMessageType.MinorException">
+      <summary>Второстепенное исключение.</summary>
+    </member>
+    <member name="F:CommonLibrary.ValidationMessageType.Warning">
+      <summary>Предупреждение.</summary>
+    </member>
+    <member name="M:CommonLibrary.BaseSearchDialogEventArgs.AddError(System.String)">
+      <summary>Добавить сообщение об ошибке валидации.</summary>
+      <param name="message">Текст сообщения.</param>
+    </member>
+    <member name="M:CommonLibrary.BaseSearchDialogEventArgs.AddInformation(System.String)">
+      <summary>Добавить информацию.</summary>
+      <param name="message">Текст информации.</param>
+    </member>
+    <member name="M:CommonLibrary.BaseSearchDialogEventArgs.AddWarning(System.String)">
+      <summary>Добавить предупреждение.</summary>
+      <param name="message">Текст предупреждения.</param>
+    </member>
+    <member name="M:CommonLibrary.Exceptions.PlatformException.ApplyPolicies">
+      <summary>Применить политики к исключению.</summary>
+    </member>
+    <member name="M:CommonLibrary.IConfirmDialog.Show">
+      <summary>Показать диалог подтверждения.</summary>
+      <returns>Результат диалога подтверждения.</returns>
+    </member>
+    <member name="M:CommonLibrary.IConfirmDialog.WithDontAskAgain(System.String)">
+      <summary>Добавить флажок "Больше не спрашивать".</summary>
+      <param name="dialogId">Прикладной идентификатор диалога.</param>
+      <returns>Диалог подтверждения.</returns>
+    </member>
+    <member name="M:CommonLibrary.IDateDialogValue.AsDateTime">
+      <summary>Установить формат "Только дата".</summary>
+      <returns>Контрол "Дата".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDateDialogValue.AsMonthYear">
+      <summary>Установить формат "Год и месяц".</summary>
+      <returns>Контрол "Дата".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDateDialogValue.AsYear">
+      <summary>Установить формат "Только год".</summary>
+      <returns>Контрол "Дата".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDateDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Дата".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddAbort">
+      <summary>Добавить кнопку "Прервать".</summary>
+      <returns>Кнопка "Прервать".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddCancel">
+      <summary>Добавить кнопку "Отмена".</summary>
+      <returns>Кнопка "Отмена".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddCustom(System.String)">
+      <summary>Добавить кнопку.</summary>
+      <param name="name">Название кнопки.</param>
+      <returns>Добавленная кнопка.</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddIgnore">
+      <summary>Добавить кнопку "Пропустить".</summary>
+      <returns>Кнопка "Пропустить".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddNo">
+      <summary>Добавить кнопку "Нет".</summary>
+      <returns>Кнопка "Нет".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddOk">
+      <summary>Добавить кнопку "ОК".</summary>
+      <returns>Кнопка "ОК".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddOkCancel">
+      <summary>Добавить кнопки "ОК" и "Отмена".</summary>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddRetry">
+      <summary>Добавить кнопку "Повторить".</summary>
+      <returns>Кнопка "Повторить".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddRetryAbortIgnore">
+      <summary>Добавить кнопки "Повторить", "Прервать" и "Пропустить".</summary>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddYes">
+      <summary>Добавить кнопку "Да".</summary>
+      <returns>Кнопка "Да".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddYesNo">
+      <summary>Добавить кнопки "Да" и "Нет".</summary>
+    </member>
+    <member name="M:CommonLibrary.IDialogButtonsCollection.AddYesToAll">
+      <summary>Добавить кнопку "Да для всех".</summary>
+      <returns>Кнопка "Да для всех".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDialogControl`1.SetOnValueChanged(System.Action{CommonLibrary.InputDialogValueChangedEventArgs{`0}})">
+      <summary>Задать обработчик, который выполняется при изменении значения контрола.</summary>
+      <param name="handler">Метод-обработчик.</param>
+    </member>
+    <member name="M:CommonLibrary.IDoubleDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Вещественное число".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDropDownDialogValue.From(System.String[])">
+      <summary>Определить список допустимых значений.</summary>
+      <param name="values">Список допустимых значений.</param>
+      <returns>Контрол "Выпадающий список".</returns>
+    </member>
+    <member name="M:CommonLibrary.IDropDownDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Выпадающий список".</returns>
+    </member>
+    <member name="M:CommonLibrary.IFileSelectDialogValue.MaxFileSize(System.Int32)">
+      <summary>Задать максимальный размер файла.</summary>
+      <param name="fileSize">Размер файла.</param>
+      <returns>Контрол "Выбор файла".</returns>
+    </member>
+    <member name="M:CommonLibrary.IFileSelectDialogValue.WithFilter(System.String,System.String,System.String[])">
+      <summary>Добавить фильтр по расширению файлов, доступных для выбора.</summary>
+      <param name="description">Описание фильтра.</param>
+      <param name="extension">Расширение файлов, по которому выполняется фильтрация.</param>
+      <param name="extensions">Список расширений файлов, по которым выполняется фильтрация.</param>
+      <returns>Контрол "Выбор файла".</returns>
+    </member>
+    <member name="M:CommonLibrary.IFileSelectDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Выбор файла".</returns>
+    </member>
+    <member name="M:CommonLibrary.IHyperlinkDialogValue.SetOnExecute(System.Action)">
+      <summary>Задать обработчик, который выполняется при переходе по гиперссылке.</summary>
+      <param name="handler">Метод-обработчик.</param>
+    </member>
+    <member name="M:CommonLibrary.IHyperlinkDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Гиперссылка".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddBoolean(System.String)">
+      <summary>Добавить контрол "Флажок".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <returns>Контрол "Флажок".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddBoolean(System.String,System.Boolean)">
+      <summary>Добавить контрол "Флажок".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Флажок".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddDate(System.String,System.Boolean)">
+      <summary>Добавить контрол "Дата".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Дата".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddDate(System.String,System.Boolean,System.Nullable{System.DateTime})">
+      <summary>Добавить контрол "Дата".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Дата".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddDouble(System.String,System.Boolean)">
+      <summary>Добавить контрол "Вещественное число".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Вещественное число".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddDouble(System.String,System.Boolean,System.Nullable{System.Double})">
+      <summary>Добавить контрол "Вещественное число".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Вещественное число".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddFileSelect(System.String,System.Boolean)">
+      <summary>Добавить контрол "Выбор файла".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Выбор файла".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddHyperlink(System.String)">
+      <summary>Добавить контрол "Гиперссылка".</summary>
+      <param name="title">Текст гиперссылки.</param>
+      <returns>Контрол "Гиперссылка".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddInteger(System.String,System.Boolean)">
+      <summary>Добавить контрол "Целое число".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Целое число".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddInteger(System.String,System.Boolean,System.Nullable{System.Int32})">
+      <summary>Добавить контрол "Целое число".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Целое число".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddMultilineString(System.String,System.Boolean)">
+      <summary>Добавить контрол "Многострочный текст".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Многострочный текст".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddMultilineString(System.String,System.Boolean,System.String)">
+      <summary>Добавить контрол "Многострочный текст".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Многострочный текст".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddPasswordString(System.String,System.Boolean)">
+      <summary>Добавить контрол "Строка для ввода пароля".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Строка для ввода пароля".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddPasswordString(System.String,System.Boolean,System.String)">
+      <summary>Добавить контрол "Строка для ввода пароля".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Строка для ввода пароля".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddSelect(System.String,System.Boolean)">
+      <summary>Добавить контрол "Выпадающий список".</summary>
+      <param name="title">Заголовок.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Выпадающий список".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddSelect(System.String,System.Boolean,System.Int32)">
+      <summary>Добавить контрол "Выпадающий список".</summary>
+      <param name="title">Заголовок.</param>
+      <param name="isRequired">Признак обязательности.</param>
+      <param name="defaultIndex">Индекс значения по умолчанию.</param>
+      <returns>Контрол "Выпадающий список".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddSelect(System.String,System.Boolean,System.String)">
+      <summary>Добавить контрол "Выпадающий список".</summary>
+      <param name="title">Заголовок.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Выпадающий список".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddString(System.String,System.Boolean)">
+      <summary>Добавить контрол "Строка".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <returns>Контрол "Строка".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.AddString(System.String,System.Boolean,System.String)">
+      <summary>Добавить контрол "Строка".</summary>
+      <param name="title">Заголовок контрола.</param>
+      <param name="isRequired">Признак того, что контрол является обязательным для заполнения.</param>
+      <param name="defaultValue">Значение по умолчанию.</param>
+      <returns>Контрол "Строка".</returns>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.SetOnButtonClick(System.Action{CommonLibrary.InputDialogButtonClickEventArgs})">
+      <summary>Задать обработчик, который выполняется при нажатии на кнопку диалога.</summary>
+      <param name="handler">Метод-обработчик.</param>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.SetOnRefresh(System.Action{CommonLibrary.InputDialogRefreshEventArgs})">
+      <summary>Задать обработчик, который выполняется при обновлении диалога.</summary>
+      <param name="handler">Метод-обработчик.</param>
+    </member>
+    <member name="M:CommonLibrary.IInputDialog.Show">
+      <summary>Показать диалог.</summary>
+    </member>
+    <member name="M:CommonLibrary.IIntegerDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Целое число".</returns>
+    </member>
+    <member name="M:CommonLibrary.IMultilineStringDialogValue.MaxLength(System.Int32)">
+      <summary>Задать максимально разрешенную длину строки.</summary>
+      <param name="length">Длина строки.</param>
+      <returns>Контрол "Текст".</returns>
+    </member>
+    <member name="M:CommonLibrary.IMultilineStringDialogValue.RowsCount(System.Int32)">
+      <summary>Задать высоту контрола.</summary>
+      <param name="count">Высота контрола в строках.</param>
+      <returns>Контрол ввода для текста.</returns>
+    </member>
+    <member name="M:CommonLibrary.IMultilineStringDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Текст".</returns>
+    </member>
+    <member name="M:CommonLibrary.IPasswordStringDialogValue.MaxLength(System.Int32)">
+      <summary>Задать максимально разрешенную длину строки.</summary>
+      <param name="length">Длина строки.</param>
+      <returns>Контрол "Строка для ввода пароля".</returns>
+    </member>
+    <member name="M:CommonLibrary.IPasswordStringDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Строка для ввода пароля".</returns>
+    </member>
+    <member name="M:CommonLibrary.IStringDialogValue.MaxLength(System.Int32)">
+      <summary>Задать максимально разрешенную длину строки.</summary>
+      <param name="length">Длина строки.</param>
+      <returns>Контрол "Строка".</returns>
+    </member>
+    <member name="M:CommonLibrary.IStringDialogValue.WithLabel(System.String)">
+      <summary>Добавить метку.</summary>
+      <param name="label">Текст метки.</param>
+      <returns>Контрол "Строка".</returns>
+    </member>
+    <member name="M:CommonLibrary.ITaskDialog.AddHyperlink(System.String)">
+      <summary>Добавить контрол "Гиперссылка".</summary>
+      <param name="title">Текст гиперссылки.</param>
+      <returns>Контрол "Гиперссылка".</returns>
+    </member>
+    <member name="M:CommonLibrary.ITaskDialog.Show">
+      <summary>Показать диалог.</summary>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.Append(CommonLibrary.LocalizedString)">
+      <summary>Объединить с локализованной строкой.</summary>
+      <param name="localizedString">Локализованная строка которую необходимо добавить.</param>
+      <returns>Локализованная строка.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.AppendFormat(System.String,System.Object[])">
+      <summary>Объединить с форматом.</summary>
+      <param name="format">Формат строки.</param>
+      <param name="parameters">Параметры формата.</param>
+      <returns>Локализованная строка.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.AppendLine(CommonLibrary.LocalizedString)">
+      <summary>Объединить с локализованной строкой с переносом добавляемой строки на новую строчку.</summary>
+      <param name="localizedString">Локализованная строка, которую необходимо добавить.</param>
+      <returns>Локализованная строка.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.CacheMessages(System.Globalization.CultureInfo[])">
+      <summary>Кэшировать сообщения в разных культурах.</summary>
+      <param name="culturesInfo">Список культур, в которых надо закэшировать строку.</param>
+      <returns>Текущая строка локализации.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.CacheMessagesInAllAvailableCultures">
+      <summary>Кэшировать сообщения во всех доступных культурах.</summary>
+      <returns>Текущая строка локализации.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.GetMessage(System.Globalization.CultureInfo)">
+      <summary>Получить сообщение в текущей культуре.</summary>
+      <param name="cultureInfo">Культура.</param>
+      <returns>Строка сообщения.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.IsNullOrEmpty">
+      <summary>Проверить, является ли строка пустой.</summary>
+      <returns>True, если такая строка существует в ресурсах и она не пустая.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.IsNullOrEmpty(System.Globalization.CultureInfo)">
+      <summary>Проверить, является ли строка пустой.</summary>
+      <param name="cultureInfo">Культура, в которой происходит проверка.</param>
+      <returns>True, если такая строка существует в ресурсах и она не пустая.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.IsNullOrWhiteSpace">
+      <summary>Проверить, является ли строка пустой, или содержит только символы пробелов.</summary>
+      <returns>True, если такая строка существует в ресурсах, она не пустая и содержит символы, отличные от пробелов.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.IsNullOrWhiteSpace(System.Globalization.CultureInfo)">
+      <summary>Проверить, является ли строка пустой, или содержит только символы пробелов.</summary>
+      <param name="cultureInfo">Культура, для которой происходит проверка.</param>
+      <returns>True, если такая строка существует в ресурсах, она не пустая и содержит символы, отличные от пробелов.</returns>
+    </member>
+    <member name="M:CommonLibrary.LocalizedString.ToString(System.Globalization.CultureInfo)">
+      <summary>Получить строку.</summary>
+      <param name="cultureInfo">Необходимая культура строки.</param>
+      <returns>Строка.</returns>
+    </member>
+    <member name="M:CommonLibrary.PersonFullName.Create(System.String,System.String,System.String)">
+      <summary>Создать персональные данные с форматом отображения по-умолчанию.</summary>
+      <param name="lastName">Фамилия.</param>
+      <param name="firstName">Имя.</param>
+      <param name="middleName">Отчество.</param>
+      <returns>Персональные данные.</returns>
+    </member>
+    <member name="M:CommonLibrary.PersonFullName.Create(System.String,System.String,System.String,CommonLibrary.PersonFullNameDisplayFormat)">
+      <summary>Создать персональные данные.</summary>
+      <param name="lastName">Фамилия.</param>
+      <param name="firstName">Имя.</param>
+      <param name="middleName">Отчество.</param>
+      <param name="displayFormat">Формат отображения.</param>
+      <returns>Персональные данные.</returns>
+    </member>
+    <member name="M:CommonLibrary.PersonFullName.CreateUndefined(System.String)">
+      <summary>Создать персональные данные, который имеют неопределённый формат (возможно, не представляют собой ФИО).</summary>
+      <param name="personalData">Строковое представление персональных данных.</param>
+      <returns>Персональные данные неопределённого формата.</returns>
+    </member>
+    <member name="M:CommonLibrary.PersonFullName.ToString(CommonLibrary.PersonFullNameDisplayFormat)">
+      <summary>Получить строковое представление с учетом формата отображения.</summary>
+      <param name="displayFormat">Формат отображения персональных данных.</param>
+      <returns>Строковое представление с учетом формата отображения.</returns>
+    </member>
+    <member name="M:CommonLibrary.PersonFullName.TryParse(System.String,CommonLibrary.PersonFullName@)">
+      <summary>Попытаться распарсить персональные данные из строки.
+    Предполагается, что они записаны в формате "Фамилия Имя Отчество".</summary>
+      <param name="value">Строка с ФИО.</param>
+      <param name="personFullName">Персональные данные.</param>
+      <returns>True - если удалось распарсить, false - если не удалось.</returns>
+    </member>
+    <member name="P:CommonLibrary.BaseSearchDialogEventArgs.IsValid">
+      <summary>Признак, что значения в диалоге валидны.</summary>
+    </member>
+    <member name="P:CommonLibrary.CustomDialogButton.IsEnabled">
+      <summary>Признак того, что кнопка доступна.</summary>
+    </member>
+    <member name="P:CommonLibrary.CustomDialogButton.IsVisible">
+      <summary>Признак того, что кнопка является видимой.</summary>
+    </member>
+    <member name="P:CommonLibrary.CustomDialogButton.Name">
+      <summary>Имя кнопки.</summary>
+    </member>
+    <member name="P:CommonLibrary.CustomDialogButton.ValidateOnClick">
+      <summary>Признак того, что при нажатии на кнопку нужна валидация диалога.</summary>
+    </member>
+    <member name="P:CommonLibrary.DialogButton.Name">
+      <summary>Имя кнопки.</summary>
+    </member>
+    <member name="P:CommonLibrary.Exceptions.PlatformException.Description">
+      <summary>Локализованное сообщение с подробным описанием ошибки.</summary>
+    </member>
+    <member name="P:CommonLibrary.Exceptions.PlatformException.IsInternal">
+      <summary>Признак того, что исключение является внутренним и не отображается пользователю.</summary>
+    </member>
+    <member name="P:CommonLibrary.Exceptions.PlatformException.LocalizedMessage">
+      <summary>Локализованное сообщение исключения.</summary>
+    </member>
+    <member name="P:CommonLibrary.IBinaryObject.Content">
+      <summary>Содержимое.</summary>
+    </member>
+    <member name="P:CommonLibrary.IBinaryObject.Name">
+      <summary>Имя бинарного объекта.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDialogButtonsCollection.Default">
+      <summary>Кнопка по умолчанию.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDialogControl.IsEnabled">
+      <summary>Признак того, что контрол доступен.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDialogControl.IsRequired">
+      <summary>Признак того, что контрол является обязательным для заполнения.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDialogControl.IsVisible">
+      <summary>Признак того, что контрол является видимым.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDialogControlLabelVisible.IsLabelVisible">
+      <summary>Признак того, что метка является видимой.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDialogControl`1.Value">
+      <summary>Значение.</summary>
+    </member>
+    <member name="P:CommonLibrary.IDropDownDialogValue.ValueIndex">
+      <summary>Индекс выбранного значения.</summary>
+    </member>
+    <member name="P:CommonLibrary.IHyperlinkDialogValue.Title">
+      <summary>Текст гиперссылки.</summary>
+    </member>
+    <member name="P:CommonLibrary.IInputDialog.Buttons">
+      <summary>Список кнопок диалога.</summary>
+    </member>
+    <member name="P:CommonLibrary.IInputDialog.Height">
+      <summary>Высота диалога.</summary>
+    </member>
+    <member name="P:CommonLibrary.IInputDialog.HelpCode">
+      <summary>Код справки.</summary>
+    </member>
+    <member name="P:CommonLibrary.IInputDialog.Text">
+      <summary>Текст сообщения.</summary>
+    </member>
+    <member name="P:CommonLibrary.IInputDialog.Width">
+      <summary>Ширина диалога.</summary>
+    </member>
+    <member name="P:CommonLibrary.ITaskDialog.Buttons">
+      <summary>Список кнопок диалога.</summary>
+    </member>
+    <member name="P:CommonLibrary.LocalizedString.Culture">
+      <summary>Культура, которая по умолчанию будет использоваться при локализации строки.</summary>
+    </member>
+    <member name="P:CommonLibrary.LocalizedString.Messages">
+      <summary>Закэшированные сообщения в культурах клиента.</summary>
+    </member>
+    <member name="P:CommonLibrary.LocalizedString.Parameters">
+      <summary>Параметры формата строки.</summary>
+    </member>
+    <member name="P:CommonLibrary.LocalizedString.ResourceKey">
+      <summary>Ключ ресурса.</summary>
+    </member>
+    <member name="P:CommonLibrary.LocalizedString.StringFormat">
+      <summary>Формат строки.</summary>
+    </member>
+    <member name="P:CommonLibrary.PersonFullName.DisplayFormat">
+      <summary>Формат отображения данных.</summary>
+    </member>
+    <member name="P:CommonLibrary.PersonFullName.FirstName">
+      <summary>Имя.</summary>
+    </member>
+    <member name="P:CommonLibrary.PersonFullName.LastName">
+      <summary>Фамилия.</summary>
+    </member>
+    <member name="P:CommonLibrary.PersonFullName.MiddleName">
+      <summary>Отчество.</summary>
+    </member>
+    <member name="T:CommonLibrary.BaseSearchDialogEventArgs">
+      <summary>Базовый класс параметров события диалога поиска.</summary>
+    </member>
+    <member name="T:CommonLibrary.Collection.NotifyOnClearObservableCollection`1">
+      <summary>ObservableCollection, которая правильно генерирует событие CollectionChanged при вызове метода Clear.</summary>
+      <typeparam name="T">Тип объекта коллекции.</typeparam>
+    </member>
+    <member name="T:CommonLibrary.CustomDialogButton">
+      <summary>Управляемая кнопка диалога.</summary>
+    </member>
+    <member name="T:CommonLibrary.DateTimeFormat">
+      <summary>Форматы даты-времени для отображения, редактирования и сохранения.</summary>
+    </member>
+    <member name="T:CommonLibrary.DialogButton">
+      <summary>Кнопка диалога.</summary>
+    </member>
+    <member name="T:CommonLibrary.Exceptions.PlatformException">
+      <summary>Базовое исключение с инфраструктурой политик.</summary>
+    </member>
+    <member name="T:CommonLibrary.IBinaryObject">
+      <summary>Бинарный объект.</summary>
+    </member>
+    <member name="T:CommonLibrary.IBooleanDialogValue">
+      <summary>Контрол "Флажок".</summary>
+    </member>
+    <member name="T:CommonLibrary.IConfirmDialog">
+      <summary>Диалог подтверждения.</summary>
+    </member>
+    <member name="T:CommonLibrary.IDateDialogValue">
+      <summary>Контрол "Дата".</summary>
+    </member>
+    <member name="T:CommonLibrary.IDialogButtonsCollection">
+      <summary>Кнопки диалога.</summary>
+    </member>
+    <member name="T:CommonLibrary.IDoubleDialogValue">
+      <summary>Контрол "Вещественное число".</summary>
+    </member>
+    <member name="T:CommonLibrary.IDropDownDialogValue">
+      <summary>Контрол "Выпадающий список".</summary>
+    </member>
+    <member name="T:CommonLibrary.IFileSelectDialogValue">
+      <summary>Контрол "Выбор файла".</summary>
+    </member>
+    <member name="T:CommonLibrary.IHyperlinkDialogValue">
+      <summary>Контрол "Гиперссылка".</summary>
+    </member>
+    <member name="T:CommonLibrary.IInputDialog">
+      <summary>Упрощенный диалог ввода.</summary>
+    </member>
+    <member name="T:CommonLibrary.IIntegerDialogValue">
+      <summary>Контрол "Целое число".</summary>
+    </member>
+    <member name="T:CommonLibrary.IMultilineStringDialogValue">
+      <summary>Контрол "Текст".</summary>
+    </member>
+    <member name="T:CommonLibrary.IPasswordStringDialogValue">
+      <summary>Контрол "Строка для ввода пароля".</summary>
+    </member>
+    <member name="T:CommonLibrary.IStringDialogValue">
+      <summary>Контрол "Строка".</summary>
+    </member>
+    <member name="T:CommonLibrary.ITaskDialog">
+      <summary>Диалог с пользователем.</summary>
+    </member>
+    <member name="T:CommonLibrary.LocalizedString">
+      <summary>Локализованная строка.</summary>
+    </member>
+    <member name="T:CommonLibrary.NotifyPropertyChangedExtImplementation">
+      <summary>Реализация интерфейса INotifyPropertyChanged.</summary>
+    </member>
+    <member name="T:CommonLibrary.NotifyPropertyChangedImplementation">
+      <summary>Реализация интерфейса INotifyPropertyChanged.</summary>
+    </member>
+    <member name="T:CommonLibrary.PersonFullName">
+      <summary>Персональные данные человека.</summary>
+    </member>
+    <member name="T:CommonLibrary.PersonFullNameDisplayFormat">
+      <summary>Формат отображения персональных данных.</summary>
+    </member>
+    <member name="T:CommonLibrary.ValidationMessageType">
+      <summary>Типы сообщений валидации.</summary>
+    </member>
+  </members>
+</doc>

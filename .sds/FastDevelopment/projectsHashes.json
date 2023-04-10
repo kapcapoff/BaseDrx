@@ -1,0 +1,447 @@
+﻿{
+  "Sungero.Domain.Interfaces.Debug.AnyCPU": {
+    "SourceFilesHash": "49942bfc8fe7d72eb4572104cb407aaf",
+    "ExternalLibsHash": "07550ce8388a26a54af24d6b2f999afa",
+    "PublicInterfaceHash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Sungero.SmartProcessing.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "0341d06aec9c737078d1522401e8cca3",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "494e69b498fdcfb2ee93f57df4f4791b"
+  },
+  "Sungero.SmartProcessing.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "d5626a47e743bfe0976747133945bd5c",
+    "ExternalLibsHash": "0ab57548e232862c60cf5609f6edcccc",
+    "PublicInterfaceHash": "494e69b498fdcfb2ee93f57df4f4791b"
+  },
+  "Sungero.SmartProcessing.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "ad31a97b5f2e5d37d336d553df240dbf",
+    "ExternalLibsHash": "c88006bf8a2daa456a360a205c8a7194",
+    "PublicInterfaceHash": "494e69b498fdcfb2ee93f57df4f4791b"
+  },
+  "Sungero.SmartProcessing.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "b052045b2d9552bbfaee7d86ede8c263",
+    "ExternalLibsHash": "1579c2e2699509d26ddf6b67f74c4370",
+    "PublicInterfaceHash": "494e69b498fdcfb2ee93f57df4f4791b"
+  },
+  "Sungero.Shell.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "f75b67450e00e7eb664033398aac0bca",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "fa0f984717d6593ac5ddb1224e1cce15"
+  },
+  "Sungero.Shell.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "89bd96d1c07f04a98cef0702c7722a29",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "fa0f984717d6593ac5ddb1224e1cce15"
+  },
+  "Sungero.Shell.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "e3d8a7808e70214c2e4341374bdd9316",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "fa0f984717d6593ac5ddb1224e1cce15"
+  },
+  "Sungero.Shell.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "3b36017f51e51b4c0476368f42282f76",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "fa0f984717d6593ac5ddb1224e1cce15"
+  },
+  "Sungero.RecordManagementUI.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "504943c82336ba9927ec3df5e819f705",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "3765a6dee44f99227f681ae8eb4f1bee"
+  },
+  "Sungero.RecordManagementUI.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "3f5622b1c47f6f6aa822c8d159e51134",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "3765a6dee44f99227f681ae8eb4f1bee"
+  },
+  "Sungero.RecordManagementUI.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "783cb5356dd31856f4bda6e6e336cc97",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "3765a6dee44f99227f681ae8eb4f1bee"
+  },
+  "Sungero.RecordManagementUI.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "5a34bcff7861b3f21aacd2a4e290e4f0",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "3765a6dee44f99227f681ae8eb4f1bee"
+  },
+  "Sungero.RecordManagement.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "6236f8b80a83cd28a1204445f48fcaed",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "7d49bb72e19edf16b14cc979474ef194"
+  },
+  "Sungero.RecordManagement.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "ed88abc9857700a250d33740cea2061f",
+    "ExternalLibsHash": "8cee4cad413c61f914fbd57d8a95a5b2",
+    "PublicInterfaceHash": "7d49bb72e19edf16b14cc979474ef194"
+  },
+  "Sungero.RecordManagement.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "0aa77279cc3bd62ac9332850e337e622",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "7d49bb72e19edf16b14cc979474ef194"
+  },
+  "Sungero.RecordManagement.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "efb0823b5dfa8fa94cc3ae15b8370af1",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "7d49bb72e19edf16b14cc979474ef194"
+  },
+  "Sungero.Projects.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "8f0b9bb018868db8f140b97e115c5211",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "3247d64c1b9ede0f1b3582e4f2130d24"
+  },
+  "Sungero.Projects.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "c53967b1f65a0b13a7373ca56aacccb8",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "3247d64c1b9ede0f1b3582e4f2130d24"
+  },
+  "Sungero.Projects.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "b26872671c5392c921dbcfa10aea151b",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "3247d64c1b9ede0f1b3582e4f2130d24"
+  },
+  "Sungero.Projects.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "a5b975847577f82aba30a392aac04010",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "3247d64c1b9ede0f1b3582e4f2130d24"
+  },
+  "Sungero.Parties.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "870d6fd89aa80f6ffebb9ab0a0bab835",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "cda6af627b81952d204c2f9fa37f9cb4"
+  },
+  "Sungero.Parties.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "9b386937ceb01713a2432aac9e361f2a",
+    "ExternalLibsHash": "883d7bf0df394c20171c50a2357bd42d",
+    "PublicInterfaceHash": "cda6af627b81952d204c2f9fa37f9cb4"
+  },
+  "Sungero.Parties.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "5fe17bf2978974df1825f0a2936923b6",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "cda6af627b81952d204c2f9fa37f9cb4"
+  },
+  "Sungero.Parties.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "cf8c1063bfc158cd5a1b3c0536d51ba5",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "cda6af627b81952d204c2f9fa37f9cb4"
+  },
+  "Sungero.MeetingsUI.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "61233a6666c96992a84457b282b3bb4a",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "33a6db95b0630508858ee709f75f5c56"
+  },
+  "Sungero.MeetingsUI.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "0a40ee75dde8ea4b152a6987c91c2272",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "33a6db95b0630508858ee709f75f5c56"
+  },
+  "Sungero.MeetingsUI.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "f5754d8614490c4646ca88faa3aea953",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "33a6db95b0630508858ee709f75f5c56"
+  },
+  "Sungero.MeetingsUI.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "c40a70831827b1de19239d11008baea9",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "33a6db95b0630508858ee709f75f5c56"
+  },
+  "Sungero.Meetings.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "65f3d705aeef70c3e179165ec81a98a5",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "626b1c59f5013f803c6d2c33781cae5a"
+  },
+  "Sungero.Meetings.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "9aff92078d304932c5a5335cfd4a9c8b",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "626b1c59f5013f803c6d2c33781cae5a"
+  },
+  "Sungero.Meetings.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "0692e438a880d52561931c43579cf3d6",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "626b1c59f5013f803c6d2c33781cae5a"
+  },
+  "Sungero.Meetings.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "a37219f530b811a070cd13912ea56f13",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "626b1c59f5013f803c6d2c33781cae5a"
+  },
+  "Sungero.Intelligence.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "30a33dcad5d415c18e11b7883825e219",
+    "ExternalLibsHash": "4389d74f272a05ab3ad0add9a68f30bb",
+    "PublicInterfaceHash": "8041f8f40eca96a5481b33adf664f722"
+  },
+  "Sungero.Intelligence.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "a4b974878403b9a0696c555a83ecf0b0",
+    "ExternalLibsHash": "e139f14b71a9d33e68f21cc34da71d12",
+    "PublicInterfaceHash": "8041f8f40eca96a5481b33adf664f722"
+  },
+  "Sungero.Intelligence.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "add3f72101dcc5972849ff2214e1ca79",
+    "ExternalLibsHash": "41540bee4a26822b7958874fdf8a467a",
+    "PublicInterfaceHash": "8041f8f40eca96a5481b33adf664f722"
+  },
+  "Sungero.Intelligence.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "72d25cb463c230c224af4941a7a5cfce",
+    "ExternalLibsHash": "68f75c4af9db1975395e7675bd09aa9f",
+    "PublicInterfaceHash": "8041f8f40eca96a5481b33adf664f722"
+  },
+  "Sungero.Integration1C.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "9f4e6e0bd9f10037d7f0039d454b60b0",
+    "ExternalLibsHash": "9c08a633c5a9769e24995d338355c709",
+    "PublicInterfaceHash": "550768d451e479bbafea5365ffbb4077"
+  },
+  "Sungero.Integration1C.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "952375e9870e8948cf6d75c009a05ae6",
+    "ExternalLibsHash": "692fd980231c98d35b8c2a671917a3c7",
+    "PublicInterfaceHash": "550768d451e479bbafea5365ffbb4077"
+  },
+  "Sungero.Integration1C.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "180eff14a4e6e1b27c355803bfd5f106",
+    "ExternalLibsHash": "608854515d9306a4e2bb66fa50a5f5cb",
+    "PublicInterfaceHash": "550768d451e479bbafea5365ffbb4077"
+  },
+  "Sungero.Integration1C.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "594dfb2904db4520b0714f54a84fa1b7",
+    "ExternalLibsHash": "4d40a1e2fd72092f46d9cd867cdb8d89",
+    "PublicInterfaceHash": "550768d451e479bbafea5365ffbb4077"
+  },
+  "Sungero.FinancialArchiveUI.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "e3859c71c285c96e41f28b54c53a1354",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "6784ca42e6257472720032bfcbe81e54"
+  },
+  "Sungero.FinancialArchiveUI.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "297db4320b21862d1722a61642dc939b",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "6784ca42e6257472720032bfcbe81e54"
+  },
+  "Sungero.FinancialArchiveUI.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "b99b19e603d8fd095b871264d3ab3b8f",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "6784ca42e6257472720032bfcbe81e54"
+  },
+  "Sungero.FinancialArchiveUI.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "c1eaf837d63e9a3cd24c98e959278a02",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "6784ca42e6257472720032bfcbe81e54"
+  },
+  "Sungero.FinancialArchive.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "a4f99061ad6f189b35ec30da09dd1abb",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "91ed84ecc2b3a50edb8248a55a132dc2"
+  },
+  "Sungero.FinancialArchive.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "04e690c0988549b02ab01a4839d4b4a4",
+    "ExternalLibsHash": "d76c326d00fdf71106b82ee0c90a641e",
+    "PublicInterfaceHash": "91ed84ecc2b3a50edb8248a55a132dc2"
+  },
+  "Sungero.FinancialArchive.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "830e8dbcb39a18f08e7f7ce9865ea54a",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "91ed84ecc2b3a50edb8248a55a132dc2"
+  },
+  "Sungero.FinancialArchive.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "edb4d314569d9cda705ef2cfceae0ed8",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "91ed84ecc2b3a50edb8248a55a132dc2"
+  },
+  "Sungero.ExchangeCoreSbis.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "e6e2b8512514f27cb49d6057654deee2",
+    "ExternalLibsHash": "4389d74f272a05ab3ad0add9a68f30bb",
+    "PublicInterfaceHash": "fe43267ea56dac630fac43255b0ef31f"
+  },
+  "Sungero.ExchangeCoreSbis.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "d042fef61fcb3426d8c7eee3b756bd1e",
+    "ExternalLibsHash": "e139f14b71a9d33e68f21cc34da71d12",
+    "PublicInterfaceHash": "fe43267ea56dac630fac43255b0ef31f"
+  },
+  "Sungero.ExchangeCoreSbis.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "512605cca1db848b749c99990e212951",
+    "ExternalLibsHash": "41540bee4a26822b7958874fdf8a467a",
+    "PublicInterfaceHash": "fe43267ea56dac630fac43255b0ef31f"
+  },
+  "Sungero.ExchangeCoreSbis.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "4d9195975d368049bee3ce066c216193",
+    "ExternalLibsHash": "68f75c4af9db1975395e7675bd09aa9f",
+    "PublicInterfaceHash": "fe43267ea56dac630fac43255b0ef31f"
+  },
+  "Sungero.ExchangeCoreDiadoc.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "5772d9659e081616ab3388b461830d97",
+    "ExternalLibsHash": "4389d74f272a05ab3ad0add9a68f30bb",
+    "PublicInterfaceHash": "429b481c82879821a5e5dd84bc3319fc"
+  },
+  "Sungero.ExchangeCoreDiadoc.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "6f85fd7d04eea487a68e167026ecc5f0",
+    "ExternalLibsHash": "e139f14b71a9d33e68f21cc34da71d12",
+    "PublicInterfaceHash": "429b481c82879821a5e5dd84bc3319fc"
+  },
+  "Sungero.ExchangeCoreDiadoc.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "da962ac305489026cde241cc3ae4b2a8",
+    "ExternalLibsHash": "41540bee4a26822b7958874fdf8a467a",
+    "PublicInterfaceHash": "429b481c82879821a5e5dd84bc3319fc"
+  },
+  "Sungero.ExchangeCoreDiadoc.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "960ad7e452e55118fae2151af5832fc0",
+    "ExternalLibsHash": "68f75c4af9db1975395e7675bd09aa9f",
+    "PublicInterfaceHash": "429b481c82879821a5e5dd84bc3319fc"
+  },
+  "Sungero.ExchangeCore.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "4160239ebc15c5e8609fef22834ba608",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "f5140be2e26d4640fdb3242dabc801b1"
+  },
+  "Sungero.ExchangeCore.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "bba78647f6b403b4396aa38989fa1fa2",
+    "ExternalLibsHash": "f1bb8d6a169f9709124c4f3e689cd091",
+    "PublicInterfaceHash": "f5140be2e26d4640fdb3242dabc801b1"
+  },
+  "Sungero.ExchangeCore.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "34ca1dd8dd4561efef9d93a4cc9ed12f",
+    "ExternalLibsHash": "0651f7cd832f7bc4379f9cc0e9a9959d",
+    "PublicInterfaceHash": "f5140be2e26d4640fdb3242dabc801b1"
+  },
+  "Sungero.ExchangeCore.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "defad582700c8abf5d91751dd44c0c3d",
+    "ExternalLibsHash": "aa414b5660e8ea862b7989262fe0d799",
+    "PublicInterfaceHash": "f5140be2e26d4640fdb3242dabc801b1"
+  },
+  "Sungero.Exchange.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "edf172486a38bd0488ff8f08257aa790",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "3390cc2d5bb1e6ade887b99ecba6d293"
+  },
+  "Sungero.Exchange.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "5479b33261d4b1177cc116792d5915bb",
+    "ExternalLibsHash": "9bd00f1a73fb48b41cf2b73a060291b5",
+    "PublicInterfaceHash": "3390cc2d5bb1e6ade887b99ecba6d293"
+  },
+  "Sungero.Exchange.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "d1e70d2794ed85272a7d6e817caf6c96",
+    "ExternalLibsHash": "4fce5ac21146d2b638338de2ac2997f1",
+    "PublicInterfaceHash": "3390cc2d5bb1e6ade887b99ecba6d293"
+  },
+  "Sungero.Exchange.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "277c1663542f9b33ba6ee0ef05569dee",
+    "ExternalLibsHash": "fafd6c2fd677ea9b05695743dc24ebe3",
+    "PublicInterfaceHash": "3390cc2d5bb1e6ade887b99ecba6d293"
+  },
+  "Sungero.Docflow.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "fe12c9bba58125bb19193442d0a9d4d5",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "dd6bce88613db8c8d5b8b1b800e9d5b5"
+  },
+  "Sungero.Docflow.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "ed6e98b3a211ba3d7a82324c5097ad83",
+    "ExternalLibsHash": "4faaff0f5d477cea2b4227aa2c66c33e",
+    "PublicInterfaceHash": "dd6bce88613db8c8d5b8b1b800e9d5b5"
+  },
+  "Sungero.Docflow.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "51aa87eaa19587567f864e8f010a07be",
+    "ExternalLibsHash": "25a231171f4d458d0763c7961bcb0ff2",
+    "PublicInterfaceHash": "dd6bce88613db8c8d5b8b1b800e9d5b5"
+  },
+  "Sungero.Docflow.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "a68c1b338f6d69e57a154f855acda366",
+    "ExternalLibsHash": "74f7c8d2249c91e9c717bd3f20dc9b43",
+    "PublicInterfaceHash": "dd6bce88613db8c8d5b8b1b800e9d5b5"
+  },
+  "Sungero.DirectumRX.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "ff2daab9fe1da925d835d566fbce49d4",
+    "ExternalLibsHash": "4389d74f272a05ab3ad0add9a68f30bb",
+    "PublicInterfaceHash": "7063e98f6404bb28d970f43bda31d8dd"
+  },
+  "Sungero.DirectumRX.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "8ce1cec26d3925d70da3816d4a78224b",
+    "ExternalLibsHash": "e139f14b71a9d33e68f21cc34da71d12",
+    "PublicInterfaceHash": "7063e98f6404bb28d970f43bda31d8dd"
+  },
+  "Sungero.DirectumRX.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "0017b322208f02db7d6c913d7bfe713c",
+    "ExternalLibsHash": "41540bee4a26822b7958874fdf8a467a",
+    "PublicInterfaceHash": "7063e98f6404bb28d970f43bda31d8dd"
+  },
+  "Sungero.DirectumRX.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "7aa1be3bfd3d317d6f970ba60b105ed7",
+    "ExternalLibsHash": "68f75c4af9db1975395e7675bd09aa9f",
+    "PublicInterfaceHash": "7063e98f6404bb28d970f43bda31d8dd"
+  },
+  "Sungero.ContractsUI.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "bd911031aef5cb1938c8fcff07e49df0",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "0ef9304bef36a682266e93a0e371a19e"
+  },
+  "Sungero.ContractsUI.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "5181ea9cd8f6f8a44a67b9295a14655b",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "0ef9304bef36a682266e93a0e371a19e"
+  },
+  "Sungero.ContractsUI.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "782eefa5680861111ca07add38086429",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "0ef9304bef36a682266e93a0e371a19e"
+  },
+  "Sungero.ContractsUI.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "1cac47e8561b255eed8adb1db54e2c02",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "0ef9304bef36a682266e93a0e371a19e"
+  },
+  "Sungero.Contracts.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "b1d12857bc419a6a1a7719f74e5bad53",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "f3a09fee655639462353ce36ddb39c9e"
+  },
+  "Sungero.Contracts.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "2bcec8925d1c085b6bb6ca6ba5fab0f1",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "f3a09fee655639462353ce36ddb39c9e"
+  },
+  "Sungero.Contracts.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "7bde8a1cb65b8420d672b1ab57a53b6c",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "f3a09fee655639462353ce36ddb39c9e"
+  },
+  "Sungero.Contracts.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "c5412f473cddf58be7c114c7e9b1b079",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "f3a09fee655639462353ce36ddb39c9e"
+  },
+  "Sungero.Company.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "f3073e031107befbe065ceb6e4d9cb77",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "c16aad55c27069e721628aae716b4787"
+  },
+  "Sungero.Company.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "98d081c3237c7ff9d76d806053bfdeca",
+    "ExternalLibsHash": "837314c3ff178b6ea7a4e95b9a90f8fc",
+    "PublicInterfaceHash": "c16aad55c27069e721628aae716b4787"
+  },
+  "Sungero.Company.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "c42235c8ba7c5a19fb8472029eb2c112",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "c16aad55c27069e721628aae716b4787"
+  },
+  "Sungero.Company.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "70361b64607d448d79da914b8ffcee2e",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "c16aad55c27069e721628aae716b4787"
+  },
+  "Sungero.Commons.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "22155724ea8048d26b3be3f73e208e75",
+    "ExternalLibsHash": "4389d74f272a05ab3ad0add9a68f30bb",
+    "PublicInterfaceHash": "97d5c10503b2c3eab6e19c518db3abb8"
+  },
+  "Sungero.Commons.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "65e363fa6e57d7133177d3d3a56cd3a7",
+    "ExternalLibsHash": "f9b3cf29eded08d7e7c1f677b3b254a5",
+    "PublicInterfaceHash": "97d5c10503b2c3eab6e19c518db3abb8"
+  },
+  "Sungero.Commons.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "d0a6016088bc26e86f342085c3466c1a",
+    "ExternalLibsHash": "7c1b8553100ec833f4ef5684c7f80e9d",
+    "PublicInterfaceHash": "97d5c10503b2c3eab6e19c518db3abb8"
+  },
+  "Sungero.Commons.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "5cde18a1752ba5d4275d086ce8e91ecf",
+    "ExternalLibsHash": "10ce7761e4fa6d9bfe8314c0f4b98791",
+    "PublicInterfaceHash": "97d5c10503b2c3eab6e19c518db3abb8"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "529a8096-f961-436c-8a69-d2f3d4b7342c",
+  "Name": "Solution001",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Sungero.Solution001.Client",
+  "ClientBaseAssemblyName": "Sungero.Solution001.ClientBase",
+  "ClientBaseNamespace": "Sungero.Solution001.ClientBase",
+  "ClientNamespace": "Sungero.Solution001.Client",
+  "Code": "Solutio",
+  "CompanyCode": "Sungero",
+  "Cover": {
+    "NameGuid": "0d83bdd4-af94-41ab-bbb6-83d9d8e01658",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "b3e5e481-fa7c-495b-9e2a-bc467017cbe0",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "fb2b22a9-6384-4fc9-b15a-e06265cb1617",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Sungero.Solution001",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Sungero.Solution001",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Sungero.Solution001.Server",
+  "ServerNamespace": "Sungero.Solution001.Server",
+  "SharedAssemblyName": "Sungero.Solution001.Shared",
+  "SharedNamespace": "Sungero.Solution001.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
