@@ -66488,6 +66488,883 @@
           ]
         }
       ]
+    },
+    {
+      "ModuleName": "StudySolution",
+      "Id": "25754510-d0a0-4f0f-b9ae-efe15f765687",
+      "Projects": [
+        {
+          "ProjectName": "Sungero.StudySolution.Shared",
+          "RelativeDirectoryPath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\AssemblyInfo.cs",
+              "Hash": "3057cbe50a5d3b31d775a27a1599dc76",
+              "LastDateModified": "2023-04-10T18:13:22.4240798+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\Module.g.cs",
+              "Hash": "a695a687c3fd88ba1d9d2203fe3475f1",
+              "LastDateModified": "2023-04-10T18:13:22.4280776+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\ModuleConstants.cs",
+              "Hash": "7b80f052612b0646ad4871b5ff965c21",
+              "LastDateModified": "2023-04-10T18:13:22.4260794+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\ModuleSharedFunctions.cs",
+              "Hash": "7f0b450abd16335eb832d5690f95e5ee",
+              "LastDateModified": "2023-04-10T18:13:22.4260794+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\ModuleStructures.cs",
+              "Hash": "36722cc630b445bb299431787e09bc76",
+              "LastDateModified": "2023-04-10T18:13:22.4270794+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\ModuleStructures.g.cs",
+              "Hash": "8c7b6409628e36254ef544756f4aaf2f",
+              "LastDateModified": "2023-04-10T18:13:22.42508+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\Module.mtd",
+              "Hash": "5cb5e7172f4b5e0e50e577a32a94c4b3",
+              "LastDateModified": "2023-04-10T18:13:23.53908+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\Module.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-10T18:13:22.4310812+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\Module.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-10T18:13:22.4300773+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\ModuleSystem.resx",
+              "Hash": "148b3063ff62a779ac265d57758b318f",
+              "LastDateModified": "2023-04-10T18:13:23.4960797+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\ModuleSystem.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-10T18:13:22.4290783+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Shared\\Sungero.StudySolution.Shared.csproj",
+              "Hash": "4a1670f4356f8b6b5f6f08c50179f038",
+              "LastDateModified": "2023-04-11T12:24:15.9252488+03:00"
+            }
+          ],
+          "FilesCount": 12
+        },
+        {
+          "ProjectName": "Sungero.StudySolution.Server",
+          "RelativeDirectoryPath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\AssemblyInfo.cs",
+              "Hash": "299737fec3c29e06f87b5e32b2857ff5",
+              "LastDateModified": "2023-04-10T18:13:22.4380797+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\Module.g.cs",
+              "Hash": "7e164cc80540146a54e0c6c9fa829f2d",
+              "LastDateModified": "2023-04-10T18:13:22.496079+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleAsyncHandlers.cs",
+              "Hash": "3c128cf575e632536a17f64b629b5a24",
+              "LastDateModified": "2023-04-10T18:13:22.4410797+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleDesktopViewHandlers.cs",
+              "Hash": "70dd994abc1df01f585cac06eaebb52b",
+              "LastDateModified": "2023-04-10T18:13:22.4420792+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleHandlers.cs",
+              "Hash": "71dfa2fc2d22e60272220a349232ed76",
+              "LastDateModified": "2023-04-10T18:13:22.4390811+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleJobs.cs",
+              "Hash": "3389b0a424a76b3e74ab7ec186c88ef3",
+              "LastDateModified": "2023-04-10T18:13:22.4400808+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleServerFunctions.cs",
+              "Hash": "46196308534c6c020aef2be0486e0c72",
+              "LastDateModified": "2023-04-10T18:13:22.4400808+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleWidgetHandlers.cs",
+              "Hash": "70dd994abc1df01f585cac06eaebb52b",
+              "LastDateModified": "2023-04-10T18:13:22.4410797+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\ModuleQueries.xml",
+              "Hash": "bc7d5e7f3ca455af91eb7b0f458362e4",
+              "LastDateModified": "2023-04-10T18:13:22.4430806+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Server\\Sungero.StudySolution.Server.csproj",
+              "Hash": "296f64ee0bab7d85baae02ed8d3bf3fe",
+              "LastDateModified": "2023-04-11T12:24:15.92725+03:00"
+            }
+          ],
+          "FilesCount": 10
+        },
+        {
+          "ProjectName": "Sungero.StudySolution.Client",
+          "RelativeDirectoryPath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Client",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Client\\AssemblyInfo.cs",
+              "Hash": "eca9e86ebdc1de7bb8129285b52b06c2",
+              "LastDateModified": "2023-04-10T18:13:22.4990779+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Client\\Module.g.cs",
+              "Hash": "a5537718b0fe1df01e44d5d05f009c2a",
+              "LastDateModified": "2023-04-10T18:13:22.5620798+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.Client\\Sungero.StudySolution.Client.csproj",
+              "Hash": "49339a24fc0769a5837de86550b1936b",
+              "LastDateModified": "2023-04-11T12:24:15.9292479+03:00"
+            }
+          ],
+          "FilesCount": 3
+        },
+        {
+          "ProjectName": "Sungero.StudySolution.ClientBase",
+          "RelativeDirectoryPath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase\\AssemblyInfo.cs",
+              "Hash": "1dba29d382f0c4eddf4154f9f95764bf",
+              "LastDateModified": "2023-04-10T18:13:22.5640763+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase\\Module.g.cs",
+              "Hash": "27baa597f3857d3fa8fdd8fcb462b1e5",
+              "LastDateModified": "2023-04-10T18:13:22.5670771+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase\\ModuleClientFunctions.cs",
+              "Hash": "95de1a70dfdba216948e7e884250f019",
+              "LastDateModified": "2023-04-10T18:13:22.5650773+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase\\ModuleHandlers.cs",
+              "Hash": "15b6d12645623bbb77c95c4b70537161",
+              "LastDateModified": "2023-04-10T18:13:22.5660772+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase\\ModuleWidgetHandlers.cs",
+              "Hash": "15b6d12645623bbb77c95c4b70537161",
+              "LastDateModified": "2023-04-10T18:13:22.5660772+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.StudySolution\\Sungero.StudySolution.ClientBase\\Sungero.StudySolution.ClientBase.csproj",
+              "Hash": "614fd3d17a24c5691fde9e05a095306f",
+              "LastDateModified": "2023-04-11T12:24:15.9322489+03:00"
+            }
+          ],
+          "FilesCount": 6
+        }
+      ],
+      "Scripts": [],
+      "Libraries": []
+    },
+    {
+      "ModuleName": "HelpDesk",
+      "Id": "f4930e9b-9a3e-4ca1-a56c-477f5be063b0",
+      "Projects": [
+        {
+          "ProjectName": "Sungero.HelpDesk.Shared",
+          "RelativeDirectoryPath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\AssemblyInfo.cs",
+              "Hash": "7aafa3d45f632b7358be5d8927fe30ea",
+              "LastDateModified": "2023-04-10T18:13:58.377261+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Module.g.cs",
+              "Hash": "0412147a110f72e65384bc257ded9ad6",
+              "LastDateModified": "2023-04-10T18:13:58.3822621+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\ModuleConstants.cs",
+              "Hash": "bae1050640607e8daff65f45cc5c5daa",
+              "LastDateModified": "2023-04-10T18:13:58.3802629+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\ModuleSharedFunctions.cs",
+              "Hash": "bed031202e5057758fe9a73290ec01a3",
+              "LastDateModified": "2023-04-10T18:13:58.3792613+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\ModuleStructures.cs",
+              "Hash": "63de6432b313d3a7ffca25cab6d11174",
+              "LastDateModified": "2023-04-10T18:13:58.3812623+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\ModuleStructures.g.cs",
+              "Hash": "e761973452ba7e15f911af2fce522975",
+              "LastDateModified": "2023-04-10T18:13:58.3782615+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Module.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-10T18:13:58.3852578+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Module.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-10T18:13:58.3842612+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\ModuleSystem.resx",
+              "Hash": "d30e04cc1ac8d2c86d2cd8fe9b714ba2",
+              "LastDateModified": "2023-04-11T10:17:02.2642369+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\ModuleSystem.ru.resx",
+              "Hash": "1b66f574a5b819f9a5c18ae9c615f866",
+              "LastDateModified": "2023-04-11T10:17:02.2662347+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Module.mtd",
+              "Hash": "0758a2db3be3c50ef28138ab87d440bc",
+              "LastDateModified": "2023-04-11T12:18:39.8155553+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookHandlers.cs",
+              "Hash": "9e5b3f8b5f95e17eba6182b4cee671ab",
+              "LastDateModified": "2023-04-11T10:01:25.5465133+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookSharedFunctions.cs",
+              "Hash": "6e0126c70c52dc3be3ce377186564d5e",
+              "LastDateModified": "2023-04-11T10:01:25.550511+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookConstants.cs",
+              "Hash": "1d061c63268a9b4a09dee262dc1fc986",
+              "LastDateModified": "2023-04-11T10:01:25.5555116+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookStructures.cs",
+              "Hash": "22267d68b7bff43ef47d26789fe4dbb2",
+              "LastDateModified": "2023-04-11T10:01:25.5595065+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookStructures.g.cs",
+              "Hash": "6d6eae1398d3c185f120abf4d85cb91d",
+              "LastDateModified": "2023-04-11T10:01:25.5915074+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\Databook.g.cs",
+              "Hash": "ee0b66ef03f4312b9765ef58957ba31e",
+              "LastDateModified": "2023-04-11T10:01:25.7555121+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\Databook.mtd",
+              "Hash": "f0085e06ba8e82d84e585dcd2803b926",
+              "LastDateModified": "2023-04-11T10:01:29.9460358+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookSystem.ru.resx",
+              "Hash": "56edfbb5073e878c852365a4429ba66a",
+              "LastDateModified": "2023-04-11T10:14:22.6501533+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\Databook.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T10:01:25.8415079+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\DatabookSystem.resx",
+              "Hash": "8510ed9e41c181d02a1fb3012a1f2638",
+              "LastDateModified": "2023-04-11T10:14:22.7441511+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Databook\\Databook.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T10:01:25.8435092+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindHandlers.cs",
+              "Hash": "f35a8bedc692cb63640da1aad779a5be",
+              "LastDateModified": "2023-04-11T10:19:49.4282361+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindSharedFunctions.cs",
+              "Hash": "09fbbf1810c44c5f8c56b56ef5d475f8",
+              "LastDateModified": "2023-04-11T10:19:49.4292381+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindConstants.cs",
+              "Hash": "90a06d26953c0e216f6e6d96f2bdf8ea",
+              "LastDateModified": "2023-04-11T10:19:49.4302371+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindStructures.cs",
+              "Hash": "d7762e9e804cdcbcf87c3c0b9b79a9b4",
+              "LastDateModified": "2023-04-11T10:19:49.4312377+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindStructures.g.cs",
+              "Hash": "1031fa18be31855d790a538cffdd4207",
+              "LastDateModified": "2023-04-11T10:19:49.4322384+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKind.g.cs",
+              "Hash": "83f24b16a641c7acdb4b08f3ff2365e8",
+              "LastDateModified": "2023-04-11T10:24:27.6642739+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKind.mtd",
+              "Hash": "721151dd5a3dfecd9102ea9c30d35ce9",
+              "LastDateModified": "2023-04-11T10:32:56.8054038+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindSystem.ru.resx",
+              "Hash": "4660a122ad48ae52f200d7d4dd66c5f1",
+              "LastDateModified": "2023-04-11T10:22:51.4282365+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKind.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T10:19:49.4432365+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKindSystem.resx",
+              "Hash": "f05b25715099a9f40da0db2d349fdf3d",
+              "LastDateModified": "2023-04-11T10:22:51.4492347+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\RequestKind\\RequestKind.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T10:19:49.4442382+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestHandlers.cs",
+              "Hash": "aea82a4a886da6ef499d713d6649db76",
+              "LastDateModified": "2023-04-11T10:34:24.6224053+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestSharedFunctions.cs",
+              "Hash": "1ba4d90bee2bf17216281772a4323026",
+              "LastDateModified": "2023-04-11T10:34:24.6224053+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestConstants.cs",
+              "Hash": "48e11b8b41d7a11c5c3cdbcdf9954945",
+              "LastDateModified": "2023-04-11T10:34:24.6234033+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestStructures.cs",
+              "Hash": "dd254331e8f1f7303a6a129bf7f67d09",
+              "LastDateModified": "2023-04-11T10:34:24.6244031+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestStructures.g.cs",
+              "Hash": "102e22d6bc4d67da3edf835a54895816",
+              "LastDateModified": "2023-04-11T10:34:24.6244031+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\Request.g.cs",
+              "Hash": "8917e4f18333412941981fef032f2f22",
+              "LastDateModified": "2023-04-11T11:47:57.8295165+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\Request.mtd",
+              "Hash": "4416a6fccd3076f84e8e814751193ba7",
+              "LastDateModified": "2023-04-11T12:05:03.1943388+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestSystem.ru.resx",
+              "Hash": "d384a0b7c4cb18485bb2327f4a128b5e",
+              "LastDateModified": "2023-04-11T11:41:33.7426417+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\Request.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T10:34:24.6314053+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\RequestSystem.resx",
+              "Hash": "f9ad06a0d270d78d55efa6f071175b7c",
+              "LastDateModified": "2023-04-11T12:04:48.1243387+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Request\\Request.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T10:34:24.6324057+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestHandlers.cs",
+              "Hash": "354f4eeabe1948537c28da23fa2be884",
+              "LastDateModified": "2023-04-11T11:55:44.3065343+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestSharedFunctions.cs",
+              "Hash": "e3c26a1c7e9912ec30de2046d62db28e",
+              "LastDateModified": "2023-04-11T11:55:44.3085347+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestConstants.cs",
+              "Hash": "015c2ca0bd1307fd72bb2b289bec7361",
+              "LastDateModified": "2023-04-11T11:55:44.3105339+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestStructures.cs",
+              "Hash": "856b349d3c46084c5308a042bf79244c",
+              "LastDateModified": "2023-04-11T11:55:44.3115379+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestStructures.g.cs",
+              "Hash": "4437bf41a5025bcb596749f89e6734a9",
+              "LastDateModified": "2023-04-11T11:55:44.3115379+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequest.g.cs",
+              "Hash": "d2d53be033e6dc010d83d738b3247a0c",
+              "LastDateModified": "2023-04-11T12:02:55.0940531+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequest.mtd",
+              "Hash": "850a21647391997de98d17341e626d19",
+              "LastDateModified": "2023-04-11T12:10:26.7038814+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestSystem.ru.resx",
+              "Hash": "c4d6113ad102b0b9175a4aeae1d3718a",
+              "LastDateModified": "2023-04-11T11:58:25.4653241+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequest.ru.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T11:55:44.3185358+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequestSystem.resx",
+              "Hash": "06e20cffc24e04e91d91c2e5a60e5de8",
+              "LastDateModified": "2023-04-11T11:58:25.4883236+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\InternalRequest\\InternalRequest.resx",
+              "Hash": "fe106729363698fbf667c72676b5c1a3",
+              "LastDateModified": "2023-04-11T11:55:44.3195363+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Shared\\Sungero.HelpDesk.Shared.csproj",
+              "Hash": "d7796b4bb853f9fc60e71dd10a04cb66",
+              "LastDateModified": "2023-04-11T12:24:15.9132476+03:00"
+            }
+          ],
+          "FilesCount": 56
+        },
+        {
+          "ProjectName": "Sungero.HelpDesk.Server",
+          "RelativeDirectoryPath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\AssemblyInfo.cs",
+              "Hash": "6d6fec9710f7364dd69d2f88c9e6e1ed",
+              "LastDateModified": "2023-04-10T18:13:58.3892579+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Module.g.cs",
+              "Hash": "8155a51c81895ffbf13ba86139a01fe3",
+              "LastDateModified": "2023-04-11T11:55:46.6555356+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleAsyncHandlers.cs",
+              "Hash": "02a1f5be1464acf69bf747f1b8a35dbc",
+              "LastDateModified": "2023-04-10T18:13:58.3932575+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleBlockHandlers.cs",
+              "Hash": "f1471ae1d26368f805bc3a9cc3ab0883",
+              "LastDateModified": "2023-04-10T18:13:58.3942619+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleHandlers.cs",
+              "Hash": "aa4ce127673b0783d4a4b64217bf5ad4",
+              "LastDateModified": "2023-04-10T18:13:58.390261+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleInitializer.cs",
+              "Hash": "33cdc4bc562b47aca85f8c935d8c2317",
+              "LastDateModified": "2023-04-10T18:13:58.3952612+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleJobs.cs",
+              "Hash": "36b32b1b581ef04ca846989b1e9c6c7f",
+              "LastDateModified": "2023-04-10T18:13:58.392262+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleServerFunctions.cs",
+              "Hash": "9920681531b1f1b1d043abaf187addd7",
+              "LastDateModified": "2023-04-10T18:13:58.3912633+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleWidgetHandlers.cs",
+              "Hash": "85e497fbaccd1bc2d512c37ee8409475",
+              "LastDateModified": "2023-04-10T18:13:58.3932575+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\ModuleQueries.xml",
+              "Hash": "bc7d5e7f3ca455af91eb7b0f458362e4",
+              "LastDateModified": "2023-04-10T18:13:58.39626+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Databook\\DatabookHandlers.cs",
+              "Hash": "5ac01c1d5acf7eb6e9f75fcfc5ab05ac",
+              "LastDateModified": "2023-04-11T10:01:25.8465081+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Databook\\DatabookServerFunctions.cs",
+              "Hash": "934deaafcf111cf0ea8c5002ff63d9e3",
+              "LastDateModified": "2023-04-11T10:01:25.8485122+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Databook\\DatabookQueries.xml",
+              "Hash": "bc7d5e7f3ca455af91eb7b0f458362e4",
+              "LastDateModified": "2023-04-11T10:01:25.8505095+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Databook\\Databook.g.cs",
+              "Hash": "abeb390b71eb251f68c2486a069a1af7",
+              "LastDateModified": "2023-04-11T10:01:25.9955099+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\RequestKind\\RequestKindHandlers.cs",
+              "Hash": "c0ce0fc6b6371648847502f2d2e7b57f",
+              "LastDateModified": "2023-04-11T10:19:49.4452383+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\RequestKind\\RequestKindServerFunctions.cs",
+              "Hash": "4967b4d2419f16db1707da57de10f800",
+              "LastDateModified": "2023-04-11T10:19:49.4462348+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\RequestKind\\RequestKindQueries.xml",
+              "Hash": "bc7d5e7f3ca455af91eb7b0f458362e4",
+              "LastDateModified": "2023-04-11T10:19:49.4472344+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\RequestKind\\RequestKind.g.cs",
+              "Hash": "da0eadbd46597111e01110fefc3f15f3",
+              "LastDateModified": "2023-04-11T10:24:27.6782718+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Request\\RequestHandlers.cs",
+              "Hash": "3df308e7005975340abda5fc4de2d8dc",
+              "LastDateModified": "2023-04-11T10:34:24.6334056+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Request\\RequestServerFunctions.cs",
+              "Hash": "66aab5e94df18d41340ad78e630e740a",
+              "LastDateModified": "2023-04-11T10:34:24.6344049+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Request\\RequestQueries.xml",
+              "Hash": "bc7d5e7f3ca455af91eb7b0f458362e4",
+              "LastDateModified": "2023-04-11T10:34:24.6354044+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Request\\Request.g.cs",
+              "Hash": "9f44486d93c7a700486df2ecf969a251",
+              "LastDateModified": "2023-04-11T11:47:57.921517+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\InternalRequest\\InternalRequestHandlers.cs",
+              "Hash": "b0ea76f29852457403f463816893e70f",
+              "LastDateModified": "2023-04-11T11:55:44.3215358+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\InternalRequest\\InternalRequestServerFunctions.cs",
+              "Hash": "e2e2b883dcbf88cc7dd847a4df74fc6c",
+              "LastDateModified": "2023-04-11T11:55:44.3225383+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\InternalRequest\\InternalRequestQueries.xml",
+              "Hash": "bc7d5e7f3ca455af91eb7b0f458362e4",
+              "LastDateModified": "2023-04-11T11:55:44.3235381+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\InternalRequest\\InternalRequest.g.cs",
+              "Hash": "696756672988699b4be0205c6a13361d",
+              "LastDateModified": "2023-04-11T12:02:55.1040531+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Server\\Sungero.HelpDesk.Server.csproj",
+              "Hash": "7b6617dac0ccaabe9b932a5ff63d34aa",
+              "LastDateModified": "2023-04-11T12:24:15.916249+03:00"
+            }
+          ],
+          "FilesCount": 27
+        },
+        {
+          "ProjectName": "Sungero.HelpDesk.Client",
+          "RelativeDirectoryPath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\AssemblyInfo.cs",
+              "Hash": "68ab6eecb0e7f378610e43b4741ab689",
+              "LastDateModified": "2023-04-10T18:13:58.4482659+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Module.g.cs",
+              "Hash": "b6906fba5efa298ef0eddf18733d1f8b",
+              "LastDateModified": "2023-04-11T11:55:46.7095326+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Databook\\DatabookView.xaml.cs",
+              "Hash": "c7d5caeb4d8bbc5656356a1897c0099e",
+              "LastDateModified": "2023-04-11T10:01:26.0015075+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Databook\\DatabookCollectionView.xaml.cs",
+              "Hash": "041b2a2c1a7c364b74640b3922bd85bc",
+              "LastDateModified": "2023-04-11T10:01:26.0065089+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Databook\\Databook.g.cs",
+              "Hash": "408e3408d7560102b417096e1a892ef6",
+              "LastDateModified": "2023-04-11T10:01:26.1135084+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\RequestKind\\RequestKindView.xaml.cs",
+              "Hash": "771c3f336a30b97e078f84b80624c28e",
+              "LastDateModified": "2023-04-11T10:19:49.4532358+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\RequestKind\\RequestKindCollectionView.xaml.cs",
+              "Hash": "18cea4f05cdd691333b058697def07b2",
+              "LastDateModified": "2023-04-11T10:19:49.4552361+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\RequestKind\\RequestKind.g.cs",
+              "Hash": "72d4e425087c82c84cca851839182152",
+              "LastDateModified": "2023-04-11T10:24:27.6952746+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Request\\RequestView.xaml.cs",
+              "Hash": "3f6367508269db09468cd48d7933ac54",
+              "LastDateModified": "2023-04-11T10:34:24.6464048+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Request\\RequestCollectionView.xaml.cs",
+              "Hash": "f6083363ea480f1f21c044b57d243e06",
+              "LastDateModified": "2023-04-11T10:34:24.6604059+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Request\\Request.g.cs",
+              "Hash": "f2480613f42c35251cd4fea3626cdb9d",
+              "LastDateModified": "2023-04-11T11:47:57.9465145+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\InternalRequest\\InternalRequestView.xaml.cs",
+              "Hash": "76c120275daf746210c5c07c84a05ea9",
+              "LastDateModified": "2023-04-11T11:55:44.3345345+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\InternalRequest\\InternalRequestCollectionView.xaml.cs",
+              "Hash": "9fef64ae2ae93aefd3a8928cbdafe8a1",
+              "LastDateModified": "2023-04-11T11:55:44.336537+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\InternalRequest\\InternalRequest.g.cs",
+              "Hash": "75759ce2b85273b090825fdfdd51868c",
+              "LastDateModified": "2023-04-11T12:02:55.1120504+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.Client\\Sungero.HelpDesk.Client.csproj",
+              "Hash": "3f68f0da4a8264ac571ea4e68dcad6d6",
+              "LastDateModified": "2023-04-11T12:24:15.9192512+03:00"
+            }
+          ],
+          "FilesCount": 15
+        },
+        {
+          "ProjectName": "Sungero.HelpDesk.ClientBase",
+          "RelativeDirectoryPath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase",
+          "Files": [
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\AssemblyInfo.cs",
+              "Hash": "1123503ee90dcc3d0e3c189e07c2ed46",
+              "LastDateModified": "2023-04-10T18:13:58.5232561+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Module.g.cs",
+              "Hash": "aafc24aa7e6c695683e12f056f64cb81",
+              "LastDateModified": "2023-04-10T18:13:58.5272594+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\ModuleClientFunctions.cs",
+              "Hash": "b91b822070041139dd012c5d339e0c89",
+              "LastDateModified": "2023-04-10T18:13:58.5242563+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\ModuleHandlers.cs",
+              "Hash": "e81aed65677bc39b49adf8fb30c2c34f",
+              "LastDateModified": "2023-04-10T18:13:58.5262601+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\ModuleWidgetHandlers.cs",
+              "Hash": "e81aed65677bc39b49adf8fb30c2c34f",
+              "LastDateModified": "2023-04-10T18:13:58.5252599+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\DatabookHandlers.cs",
+              "Hash": "b6e93f0439dea9455bcf5b82515e8c12",
+              "LastDateModified": "2023-04-11T10:01:26.1165077+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\DatabookClientFunctions.cs",
+              "Hash": "276b2b5780428fc12370fc73d2ff8fb0",
+              "LastDateModified": "2023-04-11T10:01:26.1185095+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\DatabookActions.cs",
+              "Hash": "de68c5488dc84f1d6a10ddc769e88d5e",
+              "LastDateModified": "2023-04-11T10:01:26.1205068+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\Databook.g.cs",
+              "Hash": "7fd78b8da66bf1e3a9b45aa63ceae7d3",
+              "LastDateModified": "2023-04-11T10:01:26.1455069+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\Generated\\DefaultCardView.xml",
+              "Hash": "9f4068878cd1cbd27d155cfbf054077f",
+              "LastDateModified": "2023-04-11T10:15:33.1387147+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\Generated\\DefaultCollectionView.xml",
+              "Hash": "3c4d5305fa7b8ed3cbf13849c7e0d344",
+              "LastDateModified": "2023-04-11T10:15:33.1397173+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Databook\\Generated\\DefaultFolderView.xml",
+              "Hash": "2967979f32ec76acc0ad5872a9108ada",
+              "LastDateModified": "2023-04-11T10:15:33.1397173+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\RequestKindHandlers.cs",
+              "Hash": "6fdd11c2bf83678e0f0d3052be6580a9",
+              "LastDateModified": "2023-04-11T10:19:49.4592369+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\RequestKindClientFunctions.cs",
+              "Hash": "1723554797c3dcce4f54e72a9f8b4cdd",
+              "LastDateModified": "2023-04-11T10:19:49.4602372+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\RequestKindActions.cs",
+              "Hash": "69f59fa61fb2aa45b32289b7ab44f1d8",
+              "LastDateModified": "2023-04-11T10:19:49.4622383+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\RequestKind.g.cs",
+              "Hash": "66180c5d0734c571af5b704e92923d9f",
+              "LastDateModified": "2023-04-11T10:24:27.6972736+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\Generated\\DefaultCardView.xml",
+              "Hash": "9f4068878cd1cbd27d155cfbf054077f",
+              "LastDateModified": "2023-04-11T10:32:57.2334019+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\Generated\\DefaultCollectionView.xml",
+              "Hash": "3fbec8e8d2348a2bf8f83ef6b64e9c82",
+              "LastDateModified": "2023-04-11T10:32:57.2334019+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\RequestKind\\Generated\\DefaultFolderView.xml",
+              "Hash": "6d7ff9d55cc87db42f72fc8633290743",
+              "LastDateModified": "2023-04-11T10:32:57.2334019+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\RequestHandlers.cs",
+              "Hash": "da1eaf700f6e5a711daeb4fccc1a4292",
+              "LastDateModified": "2023-04-11T10:34:24.6654045+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\RequestClientFunctions.cs",
+              "Hash": "e0fddcc3e73c510a61bef87363350dc8",
+              "LastDateModified": "2023-04-11T10:34:24.6664042+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\RequestActions.cs",
+              "Hash": "b334230cfb2e2e87371e07e84bb3938c",
+              "LastDateModified": "2023-04-11T10:34:24.667405+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\Request.g.cs",
+              "Hash": "7d11504f63ed08f906c3888eb943fefe",
+              "LastDateModified": "2023-04-11T11:47:57.9515182+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\Generated\\DefaultCardView.xml",
+              "Hash": "9f4068878cd1cbd27d155cfbf054077f",
+              "LastDateModified": "2023-04-11T12:05:04.8763413+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\Generated\\DefaultCollectionView.xml",
+              "Hash": "f984774a0330a0fee60b3319c8822ca8",
+              "LastDateModified": "2023-04-11T12:05:04.8783386+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Request\\Generated\\DefaultFolderView.xml",
+              "Hash": "8d148fe1527b1f67c57691fab2a1dfdf",
+              "LastDateModified": "2023-04-11T12:05:04.8793397+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\InternalRequest\\InternalRequestHandlers.cs",
+              "Hash": "81255ed50a33673a2d4f3806d5475031",
+              "LastDateModified": "2023-04-11T11:55:44.3775395+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\InternalRequest\\InternalRequestClientFunctions.cs",
+              "Hash": "b1c6c80fd97e33343300357e9b40d2a9",
+              "LastDateModified": "2023-04-11T11:55:44.3785401+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\InternalRequest\\InternalRequestActions.cs",
+              "Hash": "6cab9f908d8497db927c332c14f2a763",
+              "LastDateModified": "2023-04-11T11:55:44.3795394+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\InternalRequest\\InternalRequest.g.cs",
+              "Hash": "f63c0308bc1013c0b0f948366f9bcd3e",
+              "LastDateModified": "2023-04-11T12:02:55.1150536+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\InternalRequest\\Generated\\DefaultCardView.xml",
+              "Hash": "9f4068878cd1cbd27d155cfbf054077f",
+              "LastDateModified": "2023-04-11T12:10:27.627878+03:00"
+            },
+            {
+              "RelativePath": "Work\\Sungero.HelpDesk\\Sungero.HelpDesk.ClientBase\\Sungero.HelpDesk.ClientBase.csproj",
+              "Hash": "b10e98d9b7d906d6c5bdbeb127c9bdb3",
+              "LastDateModified": "2023-04-11T12:24:15.9222518+03:00"
+            }
+          ],
+          "FilesCount": 32
+        }
+      ],
+      "Scripts": [],
+      "Libraries": []
     }
   ],
   "InterfaceProject": {
@@ -68115,6 +68992,11 @@
         "LastDateModified": "2023-04-07T15:52:44.1684702+03:00"
       },
       {
+        "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.HelpDesk\\Module.g.cs",
+        "Hash": "718674dc934246c3f2c106fadf72ec4f",
+        "LastDateModified": "2023-04-10T16:39:11.6057688+03:00"
+      },
+      {
         "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.Integration1C\\Module.g.cs",
         "Hash": "550768d451e479bbafea5365ffbb4077",
         "LastDateModified": "2023-04-07T15:52:20.9454701+03:00"
@@ -68780,22 +69662,47 @@
         "LastDateModified": "2023-04-07T15:52:53.8194689+03:00"
       },
       {
+        "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.StudySolution\\Module.g.cs",
+        "Hash": "7621f5910049346f5dd3f3b4e0c1886e",
+        "LastDateModified": "2023-04-10T18:13:22.4110817+03:00"
+      },
+      {
+        "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.HelpDesk\\Databook\\Databook.g.cs",
+        "Hash": "92fedcff43591ecd302e8ba2a4052677",
+        "LastDateModified": "2023-04-11T10:01:29.9240335+03:00"
+      },
+      {
+        "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.HelpDesk\\RequestKind\\RequestKind.g.cs",
+        "Hash": "72b6f971a316f9f67d2a0656abc32202",
+        "LastDateModified": "2023-04-11T10:24:27.6482767+03:00"
+      },
+      {
+        "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.HelpDesk\\Request\\Request.g.cs",
+        "Hash": "1af386e89a59457ff7cb832cc580bc22",
+        "LastDateModified": "2023-04-11T11:47:57.8385172+03:00"
+      },
+      {
+        "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.HelpDesk\\InternalRequest\\InternalRequest.g.cs",
+        "Hash": "6131ca43013e4a85be069c67d25a0ec7",
+        "LastDateModified": "2023-04-11T12:02:55.0870521+03:00"
+      },
+      {
         "RelativePath": ".sds\\Sungero.Domain.Interfaces\\Sungero.Domain.Interfaces.csproj",
-        "Hash": "7df24953eed3b383c57252a9268ece60",
-        "LastDateModified": "2023-04-10T17:44:12.1351699+03:00"
+        "Hash": "6479cefd3ec1a11b6c91f4baa5a57877",
+        "LastDateModified": "2023-04-11T12:24:14.6132502+03:00"
       },
       {
         "RelativePath": ".sds\\Sungero.Domain.Interfaces\\ClientDeployment.config",
-        "Hash": "df2a05bb6159be9cf2adb79ea33ba89d",
-        "LastDateModified": "2023-04-10T17:52:41.7314885+03:00"
+        "Hash": "619493083d10f38353749d5a9bc884d2",
+        "LastDateModified": "2023-04-11T12:23:41.0952498+03:00"
       },
       {
         "RelativePath": ".sds\\Sungero.Domain.Interfaces\\ServerDeployment.config",
-        "Hash": "f373ad284d89ed51c7d76f5c3ba617a8",
-        "LastDateModified": "2023-04-10T17:52:41.7354883+03:00"
+        "Hash": "3786920a3176a63868177d4bfa0230d8",
+        "LastDateModified": "2023-04-11T12:23:41.1002492+03:00"
       }
     ],
-    "FilesCount": 460
+    "FilesCount": 466
   },
-  "DeployId": "6995013f-3ef2-4bf7-9bd8-cd19e9908c53"
+  "DeployId": "392b6124-d4ae-4042-9aa6-0ff18c6a53a6"
 }

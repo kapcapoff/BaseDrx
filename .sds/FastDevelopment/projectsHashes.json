@@ -1,6 +1,6 @@
 ﻿{
   "Sungero.Domain.Interfaces.Debug.AnyCPU": {
-    "SourceFilesHash": "49942bfc8fe7d72eb4572104cb407aaf",
+    "SourceFilesHash": "4c8043e2c28c1a78f3fcd007b4672eb2",
     "ExternalLibsHash": "07550ce8388a26a54af24d6b2f999afa",
     "PublicInterfaceHash": "d41d8cd98f00b204e9800998ecf8427e"
   },
@@ -443,5 +443,45 @@
     "SourceFilesHash": "5cde18a1752ba5d4275d086ce8e91ecf",
     "ExternalLibsHash": "10ce7761e4fa6d9bfe8314c0f4b98791",
     "PublicInterfaceHash": "97d5c10503b2c3eab6e19c518db3abb8"
+  },
+  "Sungero.HelpDesk.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "33051bf71f894bbd54224875a23ad6c9",
+    "ExternalLibsHash": "781b4503a873612deca6736f1a0c2840",
+    "PublicInterfaceHash": "d3cfa396f5a14f52a7a10746ffe56a76"
+  },
+  "Sungero.HelpDesk.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "27ed259a7eb058c283024d9b7afdafb7",
+    "ExternalLibsHash": "3ea1be1b9365c0060f80310018688d41",
+    "PublicInterfaceHash": "d3cfa396f5a14f52a7a10746ffe56a76"
+  },
+  "Sungero.HelpDesk.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "db79a70591b5e181312e9b9c963a2aaf",
+    "ExternalLibsHash": "c08b092320952dd0fb84b4834a70cb56",
+    "PublicInterfaceHash": "d3cfa396f5a14f52a7a10746ffe56a76"
+  },
+  "Sungero.HelpDesk.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "483f947cfc01c8653392cc741879ea94",
+    "ExternalLibsHash": "8f363eb0db45df5ac6b97aebc2aaf904",
+    "PublicInterfaceHash": "d3cfa396f5a14f52a7a10746ffe56a76"
+  },
+  "Sungero.StudySolution.Shared.Debug.AnyCPU": {
+    "SourceFilesHash": "67cb64253e5df50d559be2d0fd8efe13",
+    "ExternalLibsHash": "4389d74f272a05ab3ad0add9a68f30bb",
+    "PublicInterfaceHash": "7621f5910049346f5dd3f3b4e0c1886e"
+  },
+  "Sungero.StudySolution.Server.Debug.AnyCPU": {
+    "SourceFilesHash": "cdf79f1d64b752c7220be329fb0ba8e6",
+    "ExternalLibsHash": "e139f14b71a9d33e68f21cc34da71d12",
+    "PublicInterfaceHash": "7621f5910049346f5dd3f3b4e0c1886e"
+  },
+  "Sungero.StudySolution.Client.Debug.AnyCPU": {
+    "SourceFilesHash": "b062cc24d0a376521d04e851f12ee92b",
+    "ExternalLibsHash": "41540bee4a26822b7958874fdf8a467a",
+    "PublicInterfaceHash": "7621f5910049346f5dd3f3b4e0c1886e"
+  },
+  "Sungero.StudySolution.ClientBase.Debug.AnyCPU": {
+    "SourceFilesHash": "9779e1f0fc287ce3ed05b9577620c1c0",
+    "ExternalLibsHash": "68f75c4af9db1975395e7675bd09aa9f",
+    "PublicInterfaceHash": "7621f5910049346f5dd3f3b4e0c1886e"
   }
 }

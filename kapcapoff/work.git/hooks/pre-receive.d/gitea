@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+D:/Drx/gitea-1.15.6-gogit-windows-4.0-386.exe hook --config=D:/Drx/custom/conf/app.ini pre-receive
